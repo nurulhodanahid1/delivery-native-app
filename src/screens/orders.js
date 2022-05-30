@@ -25,7 +25,7 @@ export default function Orders({ }) {
                         </View>
                         <Text style={{ color: colors.green, marginBottom: spacing[4] }}>~ 150 gr / piece</Text>
                         <Text preset="h3">Spain</Text>
-                        <Text style={{ marginBottom: spacing[4], marginTop: spacing[3] }}>
+                        <Text preset="p" style={{ marginBottom: spacing[4], marginTop: spacing[3] }}>
                             Lettuce is an annual plant of the daisy family, Asteraceae. It is most often grown as a leaf vegetable, but sometimes for its stem and seeds. Lettuce is most often used for salads, although it is also seen in other kinds of food, such as soups, sandwiches and wraps; it can also be grilled.
                         </Text>
                         <View style={styles.cart}>

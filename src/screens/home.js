@@ -24,7 +24,7 @@ export default function Home({ navigation }) {
                         <Text preset="h1">Non-Contact</Text>
                         <Text preset="h1">Deliveries</Text>
                     </View>
-                    <Text style={{marginBottom: spacing[6]}}>
+                    <Text preset="p" style={{marginBottom: spacing[6]}}>
                         When placing an order, select the option “Contactless delivery” and the courier will leave your order at the door.
                     </Text>
                     <Pressable
